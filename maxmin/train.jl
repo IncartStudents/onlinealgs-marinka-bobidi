@@ -63,7 +63,7 @@ min_vals[length(arr) - w + 1] = length(L) > 0 ? arr[first(L)] : arr[length(arr)]
 end
 
 # Пример использования функции
-arr = [5, 8, 7, 9, 3, 4, 5,8,5]
+arr = [5, 8, 7, 9, 3, 4, 5, 8, 5]
 w = 3
 max_vals, min_vals = max_min_filter_window(arr, w)
 
